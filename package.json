@@ -1,0 +1,24 @@
+{
+  "name": "sass-multitenant",
+  "version": "1.0.0",
+  "description": "A skeleton of physical data seperation multitenant architeture for saas applicaions.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamChevon/saas-multitenant.git"
+  },
+  "keywords": [
+    "SaaS",
+    "multitenant",
+    "physical-data-seperation"
+  ],
+  "author": "Chevon Williams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IamChevon/saas-multitenant/issues"
+  },
+  "homepage": "https://github.com/IamChevon/saas-multitenant#readme"
+}
