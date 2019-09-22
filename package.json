@@ -31,5 +31,8 @@
     "dotenv": "^8.1.0",
     "knex": "^0.19.4",
     "pg": "^7.12.1"
+  },
+  "dependencies": {
+    "continuation-local-storage": "^3.2.1"
   }
 }
