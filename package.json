@@ -2,9 +2,10 @@
   "name": "sass-multitenant",
   "version": "1.0.0",
   "description": "A skeleton of physical data seperation multitenant architeture for saas applicaions.",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch src --exec babel-node src"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,15 @@
   "bugs": {
     "url": "https://github.com/IamChevon/saas-multitenant/issues"
   },
-  "homepage": "https://github.com/IamChevon/saas-multitenant#readme"
+  "homepage": "https://github.com/IamChevon/saas-multitenant#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/node": "^7.6.1",
+    "@babel/preset-env": "^7.6.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "knex": "^0.19.4",
+    "pg": "^7.12.1"
+  }
 }
